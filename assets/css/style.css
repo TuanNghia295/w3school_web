@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+html
+{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*Menu-header*/
+header{
+    height:75px;
+    background-color:#fff;
+}
+
+#menu
+{
+  display: flex;
+  height:75px;
+  justify-content: space-between;
+  padding: 0 16px 0 12px;
+}
+
+#menu .menu-logo 
+{
+    height:75px;
+    margin:0;
+}
+
+#menu .menu-logo img
+{
+    height:75px;
+}
+
+.menu-container
+{
+    margin: 0;
+    display: flex;
+    flex-basis: 10000px;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.menu-list
+{
+    list-style-type:none;
+    color: black;
+    margin:0 16px;
+    display: flex;
+   
+}
+
+.menu-list .ti-angle-down
+{
+    font-size:11px;
+
+}
+
+.menu-list li
+{
+    font-size: 18px;
+}
+
+.menu-list li:hover
+{
+    background-color:#077e52;
+    color:white;
+    cursor: pointer;
+}
+
+.menu-list li:hover a
+{
+    color:white;
+}
+
+
+.menu-items
+{
+    text-decoration: none;
+    padding: 24px 16px;
+    display:inline-block;
+    margin: 0;
+    line-height: 2;
+}
+
+.menu-items a
+{
+    text-decoration:none;
+    color:black;
+}
+
+
+.Website-items
+{
+    display:inline-block;
+    padding: 24px 16px;
+    border-radius: 25px;
+    margin: 15px;
+    background-color:plum;
+    line-height:0;
+}
+
+.Paid-items
+{
+    display:inline-block;
+    margin:0 15px 0 0;
+    padding:8px 16px;
+    line-height: 3.5;
+}
+
+.Login-items
+{
+    display:inline-block;
+    padding: 8px 16px;
+    border-radius:25px;
+    background-color: #04aa6d;
+    width: 130px;
+    color: white;
+    text-align: center;
+    
+}
+
+.new-items
+{
+    font-size: 11px;
+    border-radius: 25px;
+    background-color:#fff;
+    padding: 3px 10px;
+    margin-left: 3px;
+    text-align: center;
+    border: 1px solid black;
+    position: relative;
+    top: -2px;
+    font-weight: bold;
+}
+
+.new-items:hover
+{
+    color: black !important;;
+}
+
+
+/*Sub menu */
+.sub-menu
+{
+    display: none;
+}
+
+/*END MENU */
+
+/*NAVIGATION */
+nav {
+    height:44px;
+    background-color: #282a35;
+    color: #f1f1f1;
+    display:flex;
+    justify-content:space-between;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 30%);
+}
+
+.nav-list {
+    margin: 0;
+    display: flex;
+    font-weight: 600;
+}
+
+
+
+
+i.ti-home {
+     width: 46px; 
+     text-align: center; 
+     line-height: 0.6;
+     width: 50px;
+}
+
+i.ti-home:hover
+{
+    color:#fff;
+    cursor: pointer;
+}
+i.ti-home,i.ti-pie-chart,i.ti-comment-alt,i.ti-search {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    padding:13px 18px;
+}
+
+i.ti-pie-chart,i.ti-comment-alt,i.ti-search {
+    line-height:2;
+}
+
+.nav-items {
+    display: inline-block;
+    margin: 0;
+}
+.nav-items li
+{
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 13px 18px;
+}
+
+.nav-list li:hover
+{
+    color: #fff;
+    cursor: pointer;
+}
+section
+{
+
+}
+section .aside1
+{
+    display: none;
+}
